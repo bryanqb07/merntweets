@@ -1,0 +1,37 @@
+{
+  "name": "merntwitter",
+  "version": "1.0.0",
+  "description": "Simple twitter clone using mern stack",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryanqb07/merntweets.git"
+  },
+  "keywords": [
+    "twitter",
+    "mern"
+  ],
+  "author": "Bryan Lynch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bryanqb07/merntweets/issues"
+  },
+  "homepage": "https://github.com/bryanqb07/merntweets#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.4.22",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}

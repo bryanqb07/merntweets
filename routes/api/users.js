@@ -8,9 +8,6 @@ const passport = require("passport");
 const validateRegisterInput = require('../../validation/register');
 const validateLoginInput = require('../../validation/login');
 
-// test route for app
-
-router.get("/test", (req, res) => res.json({ msg: "This is the users route." }));
 
 // test route for jwt token auth
 
